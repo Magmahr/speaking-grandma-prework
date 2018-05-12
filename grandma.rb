@@ -1,5 +1,4 @@
-def speak_to_grandma
-  input = gets.strip
+def speak_to_grandma(input)
   if input == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!" 
   elsif input == input.downcase
