@@ -1,7 +1,13 @@
 def speak_to_grandma
   input = gets.strip
-  unless input.upcase
-    puts "HUH?! SPEAK UP, SONNY!"
+  unless input == "I LOVE YOU GRANDMA!"
+    if input == input.downcase
+      puts "HUH?! SPEAK UP, SONNY!"
+    elsif input == input.upcase
+      puts "NO, NOT SINCE 1938!"
+    end  
+  puts "I LOVE YOU TOO PUMPKIN!" 
+  end
 end  
 # Write a speak_to_grandma method.
 
